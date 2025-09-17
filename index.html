@@ -3,136 +3,178 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quick APK Vault</title>
+  <title>Katie Connects Landing Slide</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #f0f0f0;
       margin: 0;
-      padding: 20px;
-    }
-    h1 {
-      text-align: center;
+      padding: 0;
+      background: #f7f7f7;
       color: #333;
     }
-    p {
+    header {
+      background: #4a148c;
+      color: white;
       text-align: center;
-      color: #555;
+      padding: 2rem;
     }
-    .apk-container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      margin-top: 20px;
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
     }
-    .apk-card {
-      background: #fff;
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: 2rem auto;
+    }
+    section {
+      margin-bottom: 3rem;
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    section h2 {
+      margin-top: 0;
+      color: #4a148c;
+    }
+    .app-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1.5rem;
+    }
+    .app-card {
+      background: #fafafa;
+      border: 1px solid #ddd;
       border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-      width: 250px;
-      margin: 10px;
-      padding: 15px;
+      padding: 1rem;
       text-align: center;
     }
-    .apk-card h2 {
-      font-size: 18px;
-      margin: 10px 0 5px 0;
-      color: #222;
-    }
-    .apk-card p {
-      font-size: 14px;
-      color: #555;
+    .app-card h3 {
+      margin: 0 0 1rem;
+      font-size: 1.2rem;
     }
     .download-btn {
       display: inline-block;
-      margin-top: 10px;
-      padding: 10px 15px;
-      background: #28a745;
+      background: #4a148c;
       color: white;
-      border: none;
-      border-radius: 5px;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
       text-decoration: none;
       font-weight: bold;
+      transition: background 0.3s;
     }
-    .download-btn.disabled {
-      background: #aaa;
-      pointer-events: none;
+    .download-btn:hover {
+      background: #6a1b9a;
     }
   </style>
 </head>
 <body>
+  <header>
+    <h1>Katie Connects Landing Slide</h1>
+    <p>Welcome to my space – tech, recovery, and connection all in one.</p>
+  </header>
 
-<h1>Welcome to Quick APK Vault</h1>
-<p>Download your favorite APKs easily. Click the buttons below to start your downloads.</p>
+  <div class="container">
+    <!-- STORY SECTION -->
+    <section id="story">
+      <h2>My Story</h2>
+      <p><!-- ✨ Fill in your personal story here. ✨ --></p>
+    </section>
 
-<div class="apk-container" id="apkContainer">
-  <!-- APK cards will be inserted here -->
-</div>
+    <!-- APK DOWNLOADS SECTION -->
+    <section id="downloads">
+      <h2>App Downloads</h2>
+      <div class="app-grid">
+        <div class="app-card">
+          <h3>App 1</h3>
+          <p><!-- Short description for App 1 --></p>
+          <a href="<!-- URL for App 1 -->" class="download-btn">Download</a>
+        </div>
+        <div class="app-card">
+          <h3>App 2</h3>
+          <p><!-- Short description for App 2 --></p>
+          <a href="<!-- URL for App 2 -->" class="download-btn">Download</a>
+        </div>
+        <div class="app-card">
+          <h3>App 3</h3>
+          <p><!-- Short description for App 3 --></p>
+          <a href="<!-- URL for App 3 -->" class="download-btn">Download</a>
+        </div>
+        <div class="app-card">
+          <h3>App 4</h3>
+          <p><!-- Short description for App 4 --></p>
+          <a href="<!-- URL for App 4 -->" class="download-btn">Download</a>
+        </div>
+        <div class="app-card">
+          <h3>App 5</h3>
+          <p><!-- Short description for App 5 --></p>
+          <a href="<!-- URL for App 5 -->" class="download-btn">Download</a>
+        </div>
+        <div class="app-card">
+          <h3>App 6</h3>
+          <p><!-- Short description for App 6 --></p>
+          <a href="<!-- URL for App 6 -->" class="download-btn">Download</a>
+        </div>
+        <div class="app-card">
+          <h3>App 7</h3>
+          <p><!-- Short description for App 7 --></p>
+          <a href="<!-- URL for App 7 -->" class="download-btn">Download</a>
+        </div>
+        <div class="app-card">
+          <h3>App 8</h3>
+          <p><!-- Short description for App 8 --></p>
+          <a href="<!-- URL for App 8 -->" class="download-btn">Download</a>
+        </div>
+        <div class="app-card">
+          <h3>App 9</h3>
+          <p><!-- Short description for App 9 --></p>
+          <a href="<!-- URL for App 9 -->" class="download-btn">Download</a>
+        </div>
+        <div class="app-card">
+          <h3>App 10</h3>
+          <p><!-- Short description for App 10 --></p>
+          <a href="<!-- URL for App 10 -->" class="download-btn">Download</a>
+        </div>
+        <div class="app-card">
+          <h3>App 11</h3>
+          <p><!-- Short description for App 11 --></p>
+          <a href="<!-- URL for App 11 -->" class="download-btn">Download</a>
+        </div>
+        <div class="app-card">
+          <h3>App 12</h3>
+          <p><!-- Short description for App 12 --></p>
+          <a href="<!-- URL for App 12 -->" class="download-btn">Download</a>
+        </div>
+        <div class="app-card">
+          <h3>App 13</h3>
+          <p><!-- Short description for App 13 --></p>
+          <a href="<!-- URL for App 13 -->" class="download-btn">Download</a>
+        </div>
+        <div class="app-card">
+          <h3>App 14</h3>
+          <p><!-- Short description for App 14 --></p>
+          <a href="<!-- URL for App 14 -->" class="download-btn">Download</a>
+        </div>
+        <div class="app-card">
+          <h3>App 15</h3>
+          <p><!-- Short description for App 15 --></p>
+          <a href="<!-- URL for App 15 -->" class="download-btn">Download</a>
+        </div>
+      </div>
+    </section>
 
+    <!-- KODI SECTION -->
+    <section id="kodi">
+      <h2>Kodi Add-ons</h2>
+      <p><!-- ✨ Explain what Kodi is and how to use your favorite add-ons here. ✨ --></p>
+    </section>
 
-
-<script>
-  const apks = [
-    { 
-      name: "Streamfire", 
-      version: "v1.2.2", 
-      desc: "Streamfire is a live tv app with seamless interface and click and play .", 
-      url: "https://github.com/KatieConnects/unlinkedstore/releases/download/v1%2C2%2C2/Streamfire-v1.2.2.apk" 
-    },
-    { 
-      name: "Stremio", 
-      version: "v4.4.168", 
-      desc: "Should use vpn or real debrid with this app, must set up account on another device and then install here.", 
-      url: "https://github.com/KatieConnects/unlinkedstore/releases/download/v22.2/Stremio_1.6.7_.Android_TV.apk" 
-    },
-    { 
-      name: "Sportsfire", 
-      version: "v2.0.3", 
-      desc: "Live Tv App with Live Sports channels, & more, definately worth it if your a sports fan.", 
-      url: "https://github.com/KatieConnects/unlinkedstore/releases/download/v.4.9/Sports_Fire_v2.0.4.-.Copy.apk" 
-    },
-    { 
-      name: "Onstream", 
-      version: "v2.2.0", 
-      desc: "Click and play movie/tv series app that works flawlessly to play your fav shows and movies including the newest ones.", 
-      url: "https://github.com/KatieConnects/unlinkedstore/releases/download/21.3/onstream-tv-1.1.0.apk" 
-    },
-    { 
-      name: "Hdo Box", 
-      version: "v2.1.3", 
-      desc: "Tv and movie app with one click play no choosing links.", 
-      url: "https://github.com/KatieConnects/unlinkedstore/releases/download/V2.1.3/HDO-Box-v2.1.3.Andriod-TV.apk" 
-    },
-    // Placeholders for the rest (Apps 6–20)
-    { name: "smarttube", version: "v29.37", desc: "Smart tube is essentially Youtube witb 0 ads.", url: "https://github.com/KatieConnects/unlinkedstore/releases/download/V3.34/smarttube_stable.apk" },
-    { name: "Flix Vision", version: "", desc: "Placeholder slot.", url: "" },
-    { name: "Kodi Omega", version: "21.2", desc: "Open Source media application for 32 ARM.", url: "https://github.com/KatieConnects/unlinkedstore/releases/download/21.3/32bitARMKODIOMEGA20.apk" },
-    { name: "Kodi Omega", version: "21.2", desc: "Open Source media application for 64 ARM.", url: "https://github.com/KatieConnects/unlinkedstore/releases/download/21.3/kodi-21.2-Omega-arm64-v8a.apk" },
-    { name: "Bee TV", version: "v4.4.2", desc: "A Movie/TV App library with tons of media content.", url: "https://github.com/KatieConnects/unlinkedstore/releases/download/v1%2C2%2C1/beetvseptup.apk" },
-    { name: "Cinema HD", version: "v3.4.1", desc: "Movie/Tv series on demand library highly rated.", url: "https://github.com/KatieConnects/unlinkedstore/releases/download/v1%2C2%2C1/cinema.hq.apk" },
-    { name: "App Twelve", version: "", desc: "Placeholder slot.", url: "" },
-    { name: "App Thirteen", version: "", desc: "Placeholder slot.", url: "" },
-    { name: "App Fourteen", version: "", desc: "Placeholder slot.", url: "" },
-    { name: "App Fifteen", version: "", desc: "Placeholder slot.", url: "" },
-    { name: "App Sixteen", version: "", desc: "Placeholder slot.", url: "" },
-    { name: "App Seventeen", version: "", desc: "Placeholder slot.", url: "" },
-    { name: "App Eighteen", version: "", desc: "Placeholder slot.", url: "" },
-    { name: "App Nineteen", version: "", desc: "Placeholder slot.", url: "" },
-    { name: "App Twenty", version: "", desc: "Placeholder slot.", url: "" }
-  ];
-
-  
-  const container = document.getElementById('apkContainer');
-
-  apks.forEach(apk => {
-    const card = document.createElement('div');
-    card.className = 'apk-card';
-
-    const title = document.createElement('h2');
-    title.textContent = apk.name + (apk.version ? ` — v${apk.version}` : '');
-    card.appendChild(title);
-
-    const desc = document.createElement('p');
-    desc.textContent = apk.desc;
-an
-
+    <!-- STREMIO SECTION -->
+    <section id="stremio">
+      <h2>Stremio</h2>
+      <p><!-- ✨ Explain Stremio, how it works, and why you recommend it here. ✨ --></p>
+    </section>
+  </div>
+</body>
+</html>
