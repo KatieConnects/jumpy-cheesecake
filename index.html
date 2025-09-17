@@ -1,66 +1,89 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quick APK Vault</title>
+  <title>APK Vault</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #f0f0f0;
-      margin: 0;
-      padding: 20px;
-    }
-    h1 {
-      text-align: center;
+      background-color: #f2f2f2;
       color: #333;
+      margin: 0;
+      padding: 0;
     }
-    p {
+    header {
+      background-color: #4a90e2;
+      color: white;
+      padding: 20px;
       text-align: center;
-      color: #555;
+    }
+    main {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .intro {
+      margin-bottom: 30px;
+      font-size: 1.2em;
+      text-align: center;
     }
     .apk-container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      margin-top: 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 20px;
     }
     .apk-card {
-      background: #fff;
+      background-color: white;
       border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-      width: 250px;
-      margin: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
       padding: 15px;
       text-align: center;
     }
-    .apk-card h2 {
-      font-size: 18px;
-      margin: 10px 0 5px 0;
-      color: #222;
+    .apk-card h3 {
+      margin: 10px 0;
     }
     .apk-card p {
-      font-size: 14px;
-      color: #555;
+      font-size: 0.9em;
+      color: #666;
     }
-    .download-btn {
+    .apk-card a {
       display: inline-block;
       margin-top: 10px;
-      padding: 10px 15px;
-      background: #28a745;
+      padding: 8px 12px;
+      background-color: #4a90e2;
       color: white;
-      border: none;
-      border-radius: 5px;
       text-decoration: none;
-      font-weight: bold;
+      border-radius: 5px;
     }
-    .download-btn.disabled {
-      background: #aaa;
-      pointer-events: none;
+    .apk-card a:hover {
+      background-color: #357ab8;
     }
   </style>
 </head>
 <body>
+  <header>
+    <h1>APK Vault</h1>
+  </header>
+  <main>
+    <p class="intro">Welcome to APK Vault! Here you'll find the latest apps and APKs ready to download safely.</p>
+
+    <div class="apk-container">
+      <div class="apk-card">
+        <h3>App Name 1</h3>
+        <p>Description for App 1 goes here.</p>
+        <a href="#">Download</a>
+      </div>
+      <div class="apk-card">
+        <h3>App Name 2</h3>
+        <p>Description for App 2 goes here.</p>
+        <a href="#">Download</a>
+      </div>
+      <!-- Add more APK cards below as needed -->
+    </div>
+  </main>
+</body>
+
 
 <h1>Welcome to Quick APK Vault</h1>
 <p>Download your favorite APKs easily. Click the buttons below to start your downloads.</p>
